@@ -37,7 +37,7 @@ function Header({ color, setColor }) {
 
           <div className="selects-wrapper">
             <select className="lang-select" name="languages" id="languages">
-              <option value="languages" selected>
+              <option value="languages" defaultChecked>
                 UZ
               </option>
               <option value="languages">RU</option>
