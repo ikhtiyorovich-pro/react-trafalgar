@@ -1,0 +1,20 @@
+.services-container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.services-heading{
+    font-family: sans-serif;
+    font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 56px;
+}
+
+.services-item{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}

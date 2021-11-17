@@ -1,13 +1,9 @@
-import "./main.scss";
+import "./main-healthcare.scss";
 
-function Main({ color, setColor }) {
-  const handleSetTheme = e => {
-    setColor(e.target.value);
-    window.localStorage.setItem("theme", e.target.value);
-  };
+function Main({ color }) {
   return (
     <>
-      <div className={color}>
+      <main className={color}>
         <div className="container">
           <ul className="healthcare-item">
             <li className="healthcare-list">
@@ -30,7 +26,7 @@ function Main({ color, setColor }) {
             </li>
           </ul>
         </div>
-      </div>
+      </main>
     </>
   );
 }

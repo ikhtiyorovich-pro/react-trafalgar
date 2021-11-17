@@ -1,4 +1,14 @@
+.healthcare-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
 .healthcare-heading {
+    width: 100%;
+    max-width: 427px;
+    margin-bottom: 20px;
     font-family: sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -8,6 +18,9 @@
 }
 
 .healthcare-paragraph {
+    width: 100%;
+    max-width: 445px;
+    margin-bottom: 35px;
     font-family: sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -27,4 +40,8 @@
     text-decoration: none;
     background-color: #458FF6;
     border-radius: 50px
+}
+
+.healthcare-img{
+    margin-left: 110px;
 }

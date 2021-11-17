@@ -1,5 +1,8 @@
 .container {
-  padding: 20px 200px 0 200px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -32,3 +35,14 @@
     margin-left: 10px;
 }
 
+.lang-select{
+    background-color: rgba(255, 255, 255, 0.616);
+}
+
+.lang-select{
+    background-color: rgba(255, 255, 255, 0.616);
+}
+
+.wall-select{
+    background-color: rgba(255, 255, 255, 0.616);
+}
