@@ -1,6 +1,10 @@
 import "./main-healthcare.scss";
 
 function Main({ color }) {
+  const handleSetTheme = e => {
+    setColor(e.target.value);
+    window.localStorage.setItem("theme", e.target.value);
+  };
   return (
     <>
       <main className={color}>
