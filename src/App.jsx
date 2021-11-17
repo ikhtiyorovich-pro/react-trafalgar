@@ -10,7 +10,6 @@ function App() {
     <>
       <Header color={theme} setColor={setTheme} />
       <Main color={theme} setColor={setTheme} />
-   
       <Services color={theme} setColor={setTheme}  />
     </>
   );
